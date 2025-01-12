@@ -15,7 +15,7 @@ st.write('### Solution:')
 
 code_block_2 = (
 
-"- Would suggest writing a CTE to transform or filter any source data you wish to asses:\n"
+"- Would suggest writing a CTE to transform or filter any source data\n"
 "\n"
 "WITH source_data AS (\n"
 "\n"
