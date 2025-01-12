@@ -5,7 +5,7 @@ st.write('In 2016 SQL introduced the MERGE function allowing you to update value
 st.write('### Set up code:')
 st.write('It doesnt seem to be updating')
 code_block_1 = (
-"DECLARE @source AS TABLE (country VARCHAR(50), region_code VARCHAR(2))\n"\n
+"DECLARE @source AS TABLE (country VARCHAR(50), region_code VARCHAR(2))\n"
 "INSERT INTO @source VALUES (\'United Kingdom\', \'GB\')\n"
 "INSERT INTO @source VALUES (\'France\', \'FR\')")
 
