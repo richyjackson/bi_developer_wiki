@@ -50,5 +50,5 @@ code_block_2 = (
 ";"
 )
 
-st.code("another line of code", language="SQL")
+st.code(code_block_2, language="SQL")
 
