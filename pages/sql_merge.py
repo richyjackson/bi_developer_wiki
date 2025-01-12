@@ -5,8 +5,8 @@ st.write('In 2016 SQL introduced the MERGE function allowing you to update value
 st.write('### Set up code:')
 
 code_block_1 = (
-"DECLARE @source AS TABLE (country VARCHAR(50), region_code VARCHAR(2))"
-"INSERT INTO @source VALUES (\'United Kingdom\', \'GB\')"
+"DECLARE @source AS TABLE (country VARCHAR(50), region_code VARCHAR(2))\n"
+"INSERT INTO @source VALUES (\'United Kingdom\', \'GB\')\n"
 "INSERT INTO @source VALUES (\'France\', \'FR\')")
 
 st.code(code_block_1, language="SQL")
