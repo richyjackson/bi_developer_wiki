@@ -9,4 +9,4 @@ code_block_1 = (
 "INSERT INTO @source VALUES (\'United Kingdom\', \'GB\')"
 "INSERT INTO @source VALUES (\'France\', \'FR\')")
 
-st.write(code_block_1)
+st.code(code_block_1, language="SQL")
