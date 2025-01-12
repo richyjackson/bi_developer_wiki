@@ -1,5 +1,6 @@
 import streamlit as st
 
-st.write('This is the start of it!')
+st.write('# BI Developer WIKI')
+st.write('Find solutions to common problems a BI developers face')
 
-st.write('# Successfully updated the site!')
+
