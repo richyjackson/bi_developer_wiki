@@ -10,3 +10,4 @@ code_block_1 = (
 "INSERT INTO @source VALUES (\'France\', \'FR\')")
 
 st.code(code_block_1, language="SQL")
+st.code("another line of code", language="SQL")
