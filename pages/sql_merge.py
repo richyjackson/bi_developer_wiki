@@ -48,7 +48,7 @@ code_block_2 = (
 "- All merged statements must be terminated by a semi colon\n"
 "\n"
 ";"
-
+)
 
 st.code("another line of code", language="SQL")
 
