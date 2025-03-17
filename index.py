@@ -1,5 +1,7 @@
 import streamlit as st
 
+st.set_page_config(page_title="home", layout="centered")
+
 pages = {
   "SQL": [
     st.Page("pages/sql_merge.py", title="MERGE")],
@@ -9,8 +11,6 @@ pages = {
 
 pg = st.navigation(pages)
 pg.run()
-
-st.set_page_config(page_title="home", layout="centered")
 
 st.write('## BI Developer WIKI')
 st.write('Find solutions to common problems BI developers face')
