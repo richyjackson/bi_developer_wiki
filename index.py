@@ -2,9 +2,9 @@ import streamlit as st
 
 pages = {
   "SQL": [
-    st.Page("sql_merge.py", title="MERGE")],
+    st.Page("pages/sql_merge.py", title="MERGE")],
   "Snowflake": [
-      st.Page("test.py", title="My Test")]
+      st.Page("pages/test.py", title="My Test")]
 }
 
 pg = st.navigation(pages)
