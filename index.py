@@ -10,3 +10,5 @@ pg = st.navigation([
 ], position="sidebar", expanded=True)
 
 pg.run()
+
+st.sidebar.page_link("app_pages/sql/sql_merge.py", label="Your profile")
