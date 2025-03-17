@@ -5,7 +5,7 @@ st.write('Find solutions to common problems BI developers face')
 st.divider()
 st.write('#### SQL')
 pages = [
-  st.Page(page:"app_pages/sql/sql_merge.py", title = "MERGE")
+  st.Page(page:"bi_developer_wiki/app_pages/sql/sql_merge.py", title = "MERGE")
 ]
 
 pg = st.navigation(pages, position="sidebar", expanded=True)
