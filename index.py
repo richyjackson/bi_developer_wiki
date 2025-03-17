@@ -1,5 +1,6 @@
 import streamlit as st
 
+st.title("Home")
 st.write('## BI Developer WIKI')
 st.write('Find solutions to common problems BI developers face')
 st.divider()
