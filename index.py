@@ -6,6 +6,7 @@ st.divider()
 st.write('#### SQL')
 
 pg = st.navigation([
-    st.Page("app_pages/sql/sql_merge.py", title="MERGE", icon="🔥"), position="sidebar", expanded=False
-])
+    st.Page("app_pages/sql/sql_merge.py", title="MERGE", icon="🔥")
+], position="sidebar", expanded=False)
+
 pg.run()
