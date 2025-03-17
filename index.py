@@ -7,6 +7,6 @@ st.write('#### SQL')
 
 pg = st.navigation([
     st.Page("app_pages/sql/sql_merge.py", title="MERGE", icon="🔥")
-], position="sidebar", expanded=False)
+], position="sidebar", expanded=True)
 
 pg.run()
