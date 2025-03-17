@@ -1,5 +1,15 @@
 import streamlit as st
 
+pages = {
+  "SQL": [
+    st.Page("sql_merge.py", title="MERGE")],
+  "Snowflake": [
+      st.Page("test.py", title="My Test")]
+}
+
+pg = st.navigation(pages)
+pg.run()
+
 st.write('## BI Developer WIKI')
 st.write('Find solutions to common problems BI developers face')
 st.divider()
